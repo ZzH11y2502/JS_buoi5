@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>jsBuoi5</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./jsBuoi5.css" />
+  </head>
+  <body>
+    <div class="container py-5">
+      <div class="form-group">
+        <h2>Bai_1</h2>
+        <label>Vui lòng chọn khu vực ưu tiên:</label>
+        <ul>
+          <li class="type">
+            <input type="radio" id="Khu_A" value="Khu_A" name="selector" />
+            <label for="Khu_A">Khu_A: 2đ</label>
+
+            <div class="check"></div>
+          </li>
+
+          <li class="type">
+            <input type="radio" id="Khu_B" value="Khu_B" name="selector" />
+            <label for="Khu_B">Khu_B: 1đ</label>
+            <div class="check"></div>
+          </li>
+
+          <li class="type">
+            <input type="radio" id="Khu_C" value="Khu_C" name="selector" />
+            <label for="Khu_C">Khu_C: 0.5đ</label>
+            <div class="check"></div>
+          </li>
+        </ul>
+
+        <label>Vui lòng chọn Đối tượng ưu tiên:</label>
+        <ul>
+          <li class="type">
+            <input
+              type="radio"
+              id="Đối tượng_1"
+              value="Đối tượng_1"
+              name="selector_b1"
+            />
+            <label for="Đối tượng_1">Đối tượng_1: 2.5đ</label>
+
+            <div class="check"></div>
+          </li>
+
+          <li class="type">
+            <input
+              type="radio"
+              id="Đối tượng_2"
+              value="Đối tượng_2"
+              name="selector_b1"
+            />
+            <label for="Đối tượng_2">Đối tượng_2: 1.5đ</label>
+            <div class="check"></div>
+          </li>
+
+          <li class="type">
+            <input
+              type="radio"
+              id="Đối tượng_3"
+              value="Đối tượng_3"
+              name="selector_b1"
+            />
+            <label for="Đối tượng_3">Đối tượng_3: 1đ</label>
+            <div class="check"></div>
+          </li>
+        </ul>
+        <label for="">Điểm chuẩn</label>
+        <input
+          type="text"
+          name=""
+          value="6"
+          id="benchmark"
+          class="form-control"
+          placeholder=" Nhập điểm điểm chuẩn"
+          aria-describedby="helpId"
+        />
+
+        <div style="clear: both"></div>
+        <label for="">Điểm Văn</label>
+        <input
+          type="text"
+          name=""
+          value="7"
+          id="literature_points"
+          class="form-control"
+          placeholder=" Nhập điểm văn"
+          aria-describedby="helpId"
+        />
+        <label for="">Điểm Toán</label>
+        <input
+          type="text"
+          name=""
+          value="7.5"
+          id="math_points"
+          class="form-control"
+          placeholder=" Nhập điểm toán"
+          aria-describedby="helpId"
+        />
+        <label for="">Điểm tiếng anh</label>
+        <input
+          type="text"
+          name=""
+          value="6"
+          id="english_points"
+          class="form-control"
+          placeholder=" Nhập điểm tiếng anh"
+          aria-describedby="helpId"
+        />
+      </div>
+      <a href="#" class="btn btn-primary" onclick="bai_1()">Kết quả</a>
+      <div class="py-4" id="Ketqua1"></div>
+
+      <div class="form-group">
+        <label for=""></label>
+        <input
+          type="text"
+          name=""
+          id=""
+          class="form-control"
+          placeholder=""
+          aria-describedby="helpId"
+        />
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="./jsBuoi5.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
